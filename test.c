@@ -11,6 +11,9 @@ MU_TEST(test_check) {
    ret = max(100, 200);
 
    mu_check( ret == 200 );
+
+   mu_check( ret == 100 );
+
 }
 
 MU_TEST_SUITE(test_suite) {
