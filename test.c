@@ -10,9 +10,8 @@ MU_TEST(test_check) {
    /* calling a function to get max value */
    ret = max(100, 200);
 
-   mu_check( ret == 200 );
+   mu_check( ret == 0 );
 
-   mu_check( ret == 100 );
 
 }
 
